@@ -45,6 +45,7 @@ int main()
     printf("Sunset : %d-%d-%d %d:%d:%d\n", ts.year, ts.month, ts.day, ts.hour, ts.minute, ts.second);
 
     UNIXTimestamp_t tset, trise, ttrans;
+    /*
     for(int imon=1; imon<13; imon++){
         for(int iday=1; iday<32; iday++){
             month = imon;
@@ -62,5 +63,6 @@ int main()
             if( (imon == 4 || imon ==  6 || imon == 9 || imon == 11) && iday == 30) iday = 40;
         }
     }
+    */
 }
 

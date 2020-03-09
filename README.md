@@ -21,6 +21,10 @@ The calculations in the source code are taken from: [users.electromagnetic.net](
 
 ### Example Implementation on STM32
 
+Also see the `/example` folder for STM32CubeMX + uVision 5 Project.
+
+![](ssd1306.png)
+
 ```c
     RTC_DateTypeDef sDate;
     RTC_TimeTypeDef sTime;
